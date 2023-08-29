@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset = "UTF-8">
+            <meta name = "Author" content = "Mohamed Attia">
+            <meta name = "Description" content = " All Fitness">
+            <meta name = "Keywords" content = "All Fitness, Nutrition ">
+            <script src="producs.js" defer></script>
+            <link rel="stylesheet" href="produf.css">
+            <title>All Fitness</title>
+        </head>
+        <body>
+            <header>
+                <a id="start"></a>
+                <div id="links">
+                    <a href="main.html"> Home</a>&emsp;&emsp;
+                    <a href="MealPlans.html"> Meal Recipes</a>&emsp;&emsp;
+                    <a href="WorkoutPlans.html"> Workout Plans</a>&emsp;&emsp;
+                    <a href="About.html"> About</a>&emsp;&emsp;
+                    <a href="signup.html"> Join us</a>
+
+                </div>
+            </header>
+            <main>
+                <h1>Products</h1>
+    <div class="search-bar">
+        <label for="search">Search:</label>
+        <input type="text" id="search" oninput="filterProducts()" placeholder="Enter product name">
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image"><img src="p1.jpg" height="250"></div>
+            <div class="product-title"> <a href="https://www.amazon.ca/Workout-Waisted-Scrunch-Lifting-Control/dp/B0C77HLMYP/ref=sr_1_3_sspa?crid=2B6JVB2WB1K08&keywords=gym&qid=1691432549&sprefix=gym%2B%2Caps%2C440&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"> 3 Piece Workout Shorts for Women</a></div>
+            <div class="product-price">$39.99</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p2.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/DMoose-Fitness-Lifting-Straps-Pair/dp/B07H43F2R3/ref=sr_1_8?crid=2B6JVB2WB1K08&keywords=gym&qid=1691432549&sprefix=gym%2B%2Caps%2C440&sr=8-8&th=1"> Lifting Straps</a></div>
+            <div class="product-price"> $11.49</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p3.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/dp/B0B3VXVRWW/ref=sspa_dk_detail_4?pd_rd_i=B0B3VXVRWW&pd_rd_w=Ncbu8&content-id=amzn1.sym.1f0092a3-2281-46b9-903d-21cc207e519b&pf_rd_p=1f0092a3-2281-46b9-903d-21cc207e519b&pf_rd_r=46EQRS2Y78K249W84Z4T&pd_rd_wg=MJtIt&pd_rd_r=e55ae0e1-c435-4107-9508-caf6eadce42f&s=sports&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyREdJSzA0RUswWkhDJmVuY3J5cHRlZElkPUEwNzQyODg2MUlBSEQ4RlNWMFI4TiZlbmNyeXB0ZWRBZElkPUEwMDU3NDg1MVE4OU5BTkZRTEdTTiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"> Gym Gloves for Women</a></div>
+            <div class="product-price">$14.99</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p4.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/Helimix-Blending-Cocktails-Smoothies-Dishwasher/dp/B078KQ1QL4/ref=sr_1_11?crid=2B6JVB2WB1K08&keywords=gym&qid=1691432549&sprefix=gym%2B%2Caps%2C440&sr=8-11&th=1">Helimix 2.0 Vortex Blender Shaker Bottle</a></div>
+            <div class="product-price">$26.95</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p5.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/dp/B016XJF6DM/ref=syn_sd_onsite_desktop_0?ie=UTF8&pd_rd_plhdr=t&th=1">Vega Sport Protein Vegan Protein Powder</a></div>
+            <div class="product-price">$41.01</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p6.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/dp/B08XY94XCZ/ref=sspa_dk_detail_6?pd_rd_i=B08XY94XCZ&pd_rd_w=XNxNG&content-id=amzn1.sym.1f0092a3-2281-46b9-903d-21cc207e519b&pf_rd_p=1f0092a3-2281-46b9-903d-21cc207e519b&pf_rd_r=WEA5SSTKFP3CKDZ50C32&pd_rd_wg=HDebr&pd_rd_r=f8a7d104-7417-4f4d-a381-d1c517781083&s=hpc&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNUE0TDRIMlBNUkNDJmVuY3J5cHRlZElkPUEwNDI1NjQ0MVNTMVNLRVJERUlXMSZlbmNyeXB0ZWRBZElkPUEwNjQ3Nzc3MzhNRThXTVE2QUJENiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1">Naked Shake – Vegan Protein Powder</a></div>
+            <div class="product-price">$56.99</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p7.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/CLIF-BUILDERS-Protein-Chocolate-Non-GMO/dp/B00BMHISBS/ref=sr_1_16?crid=1IWYFH7W37K73&keywords=protein%2Bbar&qid=1691433094&s=hpc&sprefix=prot%2Chpc%2C106&sr=1-16&th=1">CLIF BUILDERS - Protein Bars - Chocolate Mint </a></div>
+            <div class="product-price">$24.66</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p8.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/5lb-52-5lb-Adjustable-Dumbbells-Efficient-Exercises/dp/B0C2VND51M/ref=sr_1_3_sspa?keywords=dumbbells&qid=1691433182&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"></a>IMFit 5lb-52.5lb Adjustable Dumbbells with Free Hand Grip</div>
+            <div class="product-price">$199.99</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p9.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/OPTIMUM-NUTRITION-STANDARD-Protein-Isolates/dp/B000GISU1M/ref=sr_1_6?crid=1B5SD1V9LYZD0&keywords=protein%2Bpowder&qid=1691433281&sprefix=pro%2Caps%2C122&sr=8-6&th=1">Optimum Nutrition Gold Standard</a></div>
+            <div class="product-price">$117.89</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"><img src="p10.jpg" height="250"></div>
+            <div class="product-title"><a href="https://www.amazon.ca/Ullnoy-Moisture-Athletic-Exercise-Activewear/dp/B09Y1K8XTX/ref=sr_1_4_sspa?crid=2OD0FWZKSWB8A&keywords=gym%2Bclothes%2Bfor%2Bmen&qid=1691433379&sprefix=gym%2Bc%2Caps%2C118&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1">Ullnoy Men's Dry Fit T Shirt</a></div>
+            <div class="product-price">$35.99</div>
+        </div>
+    </div>
+            </main>
+            <footer>
+                <div id="sm">
+                    
+                    Follow us on social media:
+                    <a href="https://www.youtube.com/"><img src="yout.png" alt="instagram logo" height="20" width="20"></a>&emsp;
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fexplore%3Flang%3Den"><img src="twete.png" alt="twitter logo" height="20" width="20"></a>&emsp;
+                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1652911352&extra_1=s%7Cc%7C318308802902%7Ce%7Cfacebook%27%7C&placement=&creative=318308802902&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1652911352%26adgroupid%3D64530181678%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9000682%26loc_interest_ms%3D1028877%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buIxx82pPD2kUf8NtqsO6OlKvO9vbxt1ychbJtXxJ94qCf4TCv1hK-YaAq1BEALw_wcB"><img src="face (1).png" alt="facebook logo" height="20" width="20"></a>&emsp;
+                    <a href="https://www.instagram.com/"><img src="insta.png" alt="instagram logo" height="20" width="20"></a>
+                    
+            </div>
+            <div id="sa"><a id="car"  href="login.php">Careers</a></div>
+            <div id="wa"><p>© 2023. AllFIT. All Rights Are Reserved</p></div>
+            </footer>
+            </footer>
+        </body>
+    </html>

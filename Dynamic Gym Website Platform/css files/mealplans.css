@@ -1,0 +1,133 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styles for the first section */
+#first {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#filtter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sorttype {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styles for each meal recipe section */
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Styles for the form */
+.formcontainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.textfield {
+    margin-bottom: 20px;
+}
+
+.textfield label {
+    display: block;
+}
+
+.textfield input[type="text"],
+.textfield input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#sm {
+    margin-bottom: 10px;
+}
+
+#sm a {
+    margin-right: 10px;
+}
+
+#sa,
+#wa {
+    margin-top: 10px;
+}
+
+#car {
+    color: #fff;
+    text-decoration: none;
+}
+
+#car:hover {
+    text-decoration: underline;
+}

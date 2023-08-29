@@ -1,0 +1,170 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, img, ul, li, a, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #links a {
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  #first, #sec, #sec\\2, #thrr, #for, #fif, .formcontainer, #six {
+    margin-bottom: 40px;
+  }
+  
+  #sec\\2, #for, #fif, .formcontainer, #six {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  #sec\\2 p, #for p {
+    margin-bottom: 0;
+  }
+  
+  #sec img, #L1 img, #L2 img, #L3 img, .formcontainer img, #e1 img, #e2 img, #e3 img, #e4 img, #e5 img {
+    margin-bottom: 10px;
+  }
+  
+  #L2 img {
+    width: 305px;
+  }
+  
+  #sec p {
+    line-height: 1.5;
+  }
+  
+  #L1, #L2, #L3 {
+    display: inline-block;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #sm {
+    margin-bottom: 20px;
+  }
+  
+  #car {
+    margin-right: 10px;
+  }
+  
+  #topof {
+    margin-top: 20px;
+  }
+  
+  /* Form Styles */
+  
+  .formcontainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .formcontainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .textfield {
+    margin-bottom: 20px;
+  }
+  
+  .textfield label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .textfield input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    #links {
+      margin-top: 20px;
+    }
+  
+    #sec, #sec\\2, #for, #fif, .formcontainer, #six {
+      padding: 10px;
+    }
+  }
+  
