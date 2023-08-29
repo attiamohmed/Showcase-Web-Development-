@@ -1,0 +1,103 @@
+/* Aouther: Mohamed Attia */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #008080;
+}
+header {
+    background-color: #333;
+    padding: 22px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: solid ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    border-color: #FFD700;
+    border-radius: 20px;
+    padding: 30px;
+    background-color:#FAEBD7;
+
+}
+.box {
+    background-color: #f1f1f1;
+    border: solid #ddd 1px;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    margin: 0px;
+}
+.red {
+    background-color: red;
+    margin-bottom: 2%;
+}
+.blue {
+    background-color: blue;
+    margin-bottom: 2%;
+}
+.green {
+    background-color: green;
+    margin-bottom: 2%;
+
+}
+.yellow {
+    background-color: yellow;
+    margin-bottom: 2%;
+    max-width: 40%;
+
+}
+.orange {
+    background-color: orange;
+    margin-bottom: 2%;
+    max-width: 40%;
+}
+footer {
+    margin: 20px;
+    border: dashed;
+    background-color: wheat;
+    color: black;
+    border-radius: 35px;
+    border-color: gold;
+    text-align: center;
+    padding: 1px;
+}
+@media (max-width:600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .box {
+        padding: 20px;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    footer {
+        background-color: rgb(86, 99, 39);
+        color: white;
+    }
+    header {
+        background-color: aquamarine;
+        color: black;
+    }
+    body {
+        background-color: lightcoral;
+        margin: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+

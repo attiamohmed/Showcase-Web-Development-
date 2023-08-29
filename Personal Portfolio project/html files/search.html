@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="EN">
+        <head>
+            <title id="H"> Search for Course </title>
+            <meta charset = "UTF-8">
+            <meta name = "Author" content = "Mohamed Attia">
+            <meta name = "Description" content = "Home Page for personal web page">
+            <meta name = "Keywords" content = "Search, Course, SearchBar">
+            <link rel="stylesheet" type="text/css" href="search.css">
+            <script src="search.js" defer> </script>
+        </head>
+        <body>
+            <header>
+                <nav class="head">
+                    <a href="index.html" target="_blank"> Home</a>&emsp;&emsp;
+                    <a href="Resume.html" target="_blank"> Skills and Qualifications</a>&emsp;&emsp;
+                    <a href="courses.html" target="_blank">Courses History</a>
+                </nav>
+            </header>
+            <main>
+                <div class="search">
+                    <form>
+                        <input type="text" id="Search" onkeyup="myFunction()" name="SearchBar" placeholder="Course Name">
+                        <button type="menu"><img src="reset2.png" width="20"></button>
+                    </form>
+                </div>
+                <div class="kilo">
+                    <select  id="sortLevel" onchange="sortCoursesByLevel()">
+                        <option value=""> All Levels</option>
+                        <option value="Level 1">Level 1</option>
+                        <option value="Level 2">Level 2</option>
+                    </select>
+                </div>
+                <div class="kilo">
+                    <select id="sortOrder" onchange="sortCoursesByOrder()">
+                        <option value=""> Sort by Level</option>
+                        <option value="asc">Lowest to Highest </option>
+                        <option value="desc">Highest to lowest</option>
+                    </select>
+                </div>
+                <div class="list">
+                    <ul class="co" id="courseListLevel1">
+                        <li > <a href="courses.html#math"> MAT8001C Technical Mathematics for Computer Science &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                        <li > <a href="courses.html#db"> CST8215 Introduction to Database &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                        <li > <a href="courses.html#cp"> CST8116 Introduction to Computer Programming &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                        <li > <a href="courses.html#ce"> CST8101 Computer Essential &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                        <li > <a href="courses.html#cmm"> ENL1813T Communications I &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                        <li > <a href="courses.html#as"> CST8300 Achieving Success in Changing Environments &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1</a></li>
+                    </ul>
+                    <ul class="cu" id="courseListLevel2">
+                        <li > <a href="courses.html#db2" id="courseListLevel2"> CST2355 Database Systems&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspLevel 2</a></li>
+                        <li > <a href="courses.html#lx"> CST8102 Operating System Fundamentals (GNU/Linux)&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspLevel 2</a></li>
+                        <li > <a href="courses.html#cp2"> CST8284 Object Oriented Programming (Java)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 2</a></li>
+                        <li > <a href="courses.html#vic"> GED5002 Victimology (Elective)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 2</a></li>
+                        <li > <a href="courses.html#wp"> CST8285 Web Programming&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspLevel 2</a></li>
+                        <li > <a href="courses.html#cmm2"> ENL2019T Technical Communication for Engineering Technologies&emsp;&nbsp&nbsp&nbsp&nbsp&nbspLevel 2</a></li>
+                    </ul>
+                </div>
+            </main>
+        </body>
+    </html>

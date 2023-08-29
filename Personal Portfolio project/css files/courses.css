@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+header nav{
+    flex: 1;
+    text-align: right;
+    padding: 30px;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(185, 177, 177);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:  rgb(185, 177, 177);
+    transition: color 0.9s ease;
+}
+body{
+    background-color: black;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+}
+main h1{
+    font-size: 50px;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    background-color: rgb(255, 251, 235);
+    color: black;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main h1::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+}
+.ror{
+    flex: 1;
+    padding-left: 50px;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 30px;
+    color: rgb(142, 113, 78);
+}
+#sum{
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+    line-height:1.8;
+    margin-bottom: 25px;
+    max-width: 900px;
+    margin-bottom: 100px;
+    line-height: 2.5;
+}
+ul p{
+    padding-left: 230px;
+    flex: 1;
+    text-align: left;
+    line-height: 1.9;
+    max-width: 710px;
+    line-height: 2.5;
+}
+ul .zx{
+    color: rgb(135, 88, 32) ;
+    margin-bottom: 20px;
+    padding-left: 6px;
+    padding-top: 20px;
+    background-color: rgb(254, 243, 214);
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+p a{
+    color: white;
+}
+li{
+    position: relative; 
+    background-color: rgb(34, 22, 1);
+    border-radius: 20px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 70px;
+}
+li::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.4s;
+}
+#p1{
+    position: relative;
+    left: 50px;
+    bottom: 305px;
+    margin-bottom: -120px;
+}
+#p2{
+    position: relative;
+    left: 50px;
+    bottom: 306px;
+    margin-bottom: -120px;
+}
+#p3{
+    position: relative;
+    left: 50px;
+    bottom: 345px;
+    margin-bottom: -120px;
+}
+#p4{
+    position: relative;
+    left: 50px;
+    bottom: 265px;
+    margin-bottom: -150px;
+}
+#p5{
+    position: relative;
+    left: 50px;
+    bottom: 265px;
+    margin-bottom: -155px;
+}
+#p6{
+    position: relative;
+    left: 50px;
+    bottom: 225px;
+    margin-bottom: -150px;
+}
+#p7{
+    position: relative;
+    left: 50px;
+    bottom: 265px;
+    margin-bottom: -130px;
+}
+#p8{
+    position: relative;
+    left: 50px;
+    bottom: 304px;
+    margin-bottom: -160px;
+}
+#p9{
+    position: relative;
+    left: 50px;
+    bottom: 225px;
+    margin-bottom: -120px;
+}
+#p10{
+    position: relative;
+    left: 50px;
+    bottom: 387px;
+    margin-bottom: -145px;
+}
+#p11{
+    position: relative;
+    left: 50px;
+    bottom: 145px;
+    margin-bottom: -80px;
+}
+#p12{
+    position: relative;
+    left: 50px;
+    bottom: 185px;
+    margin-bottom:-140px;
+}
+footer nav{
+    flex: 1;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:15px ;
+    margin:20px ;
+}
+@media (max-width: 750px) {
+    header nav{
+        flex: 1;
+        text-align: center;
+    }
+    .ror{
+        padding-left: 25px;
+    }
+    #sum{
+        padding-left: 25px;
+        padding-right: 35px;
+    }
+    ul .zx{
+        padding-left: 0.5px;
+        padding-right: 20px;
+        margin: 25px;
+    }
+    ul p{
+        padding-left: 25px;
+        padding-right: 20px;
+    }
+    img{
+        position: relative;
+        top: 15px;
+        padding-bottom: 50px;
+    }
+    main h1{
+        flex: 1;
+        text-align: center;
+    }
+    #p1{
+        position: relative;
+        left: 50px;
+        bottom: 305px;
+        margin-bottom: 1px;
+    }
+    #p2{
+        position: relative;
+        left: 50px;
+        bottom: 306px;
+        margin-bottom: 1px;
+    }
+    #p3{
+        position: relative;
+        left: 50px;
+        bottom: 345px;
+        margin-bottom: 12px;
+    }
+    #p4{
+        position: relative;
+        left: 50px;
+        bottom: 265px;
+        margin-bottom: 2px;
+    }
+    #p5{
+        position: relative;
+        left: 50px;
+        bottom: 265px;
+        margin-bottom: 1px;
+    }
+    #p6{
+        position: relative;
+        left: 50px;
+        bottom: 225px;
+        margin-bottom: 1px;
+    }
+    #p7{
+        position: relative;
+        left: 50px;
+        bottom: 265px;
+        margin-bottom: 1px;
+    }
+    #p8{
+        position: relative;
+        left: 50px;
+        bottom: 304px;
+        margin-bottom: 1px;
+    }
+    #p9{
+        position: relative;
+        left: 50px;
+        bottom: 225px;
+        margin-bottom: 1px;
+    }
+    #p10{
+        position: relative;
+        left: 50px;
+        bottom: 387px;
+        margin-bottom: 1px;
+    }
+    #p11{
+        position: relative;
+        left: 50px;
+        bottom: 145px;
+        margin-bottom: 1px;
+    }
+    #p12{
+        position: relative;
+        left: 50px;
+        bottom: 185px;
+        margin-bottom:-10px;
+    }
+    footer nav{
+        flex: 1;
+        text-align: right;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin:20px ;
+        margin-top: -50px;
+    }
+    ul .zx{
+        color: rgb(135, 88, 32) ;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(254, 243, 214);
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        border-radius: 20px;
+    }
+}
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}

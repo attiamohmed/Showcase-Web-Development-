@@ -1,0 +1,79 @@
+/* Aouther: Mohamed Attia */
+
+body {
+    background-color: #DDD78D;
+    color: #3B3C36; 
+    font-family: sans-serif;
+}
+header, footer {
+    background-color: #60594D;
+    color: #93A29B;
+    border: 4px solid #3B3C36;
+    padding: 15px;
+    border-radius: 30px;
+}
+#h0{
+    font-size: 50px ;
+}
+header nav a{
+    color:#93A29B;
+    font-size: 12pt;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+a:hover{
+    color: #8B635C;
+}
+footer nav a {
+    color: rgb(5, 5, 199);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size:12pt ;
+}
+#h1, #h2, #h3, #h4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+p, span{
+    font-size: 14pt;
+    font-weight: 200;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+blockquote{
+    text-align: center;
+    background-color: #DCBF85;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}   
+ul li {
+    font-weight: bold;
+}
+img {
+    float: right;
+    width: 25vw;
+    margin: 10px;
+}
+footer p {
+    display: flex;
+    justify-content: right;
+    font-size: 10pt;
+    margin-top:20px ;
+}
+ol, ol p {
+    font-weight: bold;
+    margin: 25px;
+}
+header #h0 {
+    text-align: center;
+    margin-bottom: 3rem ;
+}
+
