@@ -36,7 +36,7 @@ The All Fitness Website leverages the following technologies:
 
 To explore this showcase of the All Fitness Website, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine:(https://github.com/attiamohmed/Showcase-Web-Development-/tree/main/Dynamic%20Gym%20Website%20Platform)
 
 2. Set up a local web server (e.g., Apache) and database server (e.g., MySQL).
 
