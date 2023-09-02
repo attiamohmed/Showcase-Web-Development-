@@ -12,11 +12,11 @@ The showcase includes the following components:
 
 - `js/`: JavaScript files, including "search.js," enhancing the website's functionality.
 
-- `images/`: A collection of images used throughout the website, including logos and visual elements.
-
 - `php/`: PHP scripts responsible for server-side processing and interaction with the database.
 
 - `sql/`: SQL database files used for managing and storing essential data.
+
+- `images/`: A collection of images used throughout the website, including logos and visual elements.
 
 ## Technologies Used
 
