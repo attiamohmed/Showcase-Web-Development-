@@ -33,3 +33,4 @@ To view this personal web page project, simply open any of the HTML files (e.g.,
 - Mohamed Attia
 
 Feel free to explore the project, learn about my background, and use the search functionality to discover specific courses from my academic history.
+### Visit [My Page](https://mohamedattia.online/)
