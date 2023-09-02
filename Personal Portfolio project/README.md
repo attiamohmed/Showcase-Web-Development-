@@ -7,7 +7,7 @@ This project is a personal web page. It serves as a showcase of my educational b
 The project consists of the following files and directories:
 
 - `html/`: A directory containing the HTML files for different sections of the website.
-- 
+  
 - `css/`: A directory containing the CSS stylesheets for styling the web pages.
 
 - `js/`: A directory containing JavaScript files, including "search.js," used to enhance the functionality of the search page.
